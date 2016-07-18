@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/fon">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end"
+    android:orientation="horizontal"
+    android:layout_marginBottom="10dp"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true">
+
+    <ImageButton
+        android:id="@+id/bSoundOffOn"
+        android:background="@android:color/transparent"
+        style="@style/bSettingStyle"
+        android:contentDescription="@string/buttonSound"/>
+    <ImageButton
+        android:id="@+id/bBackMenu"
+        android:background="@drawable/back"
+        style="@style/bSettingStyle"
+        android:contentDescription="@string/button"/>
+</LinearLayout>
+
+<ImageView
+    android:scaleType="centerCrop"
+    android:adjustViewBounds="true"
+    android:layout_gravity="bottom|center_horizontal"
+    android:gravity="bottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/banner"
+    android:contentDescription="@string/game"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:layout_marginBottom="@dimen/marginBotton"
+    android:layout_above="@+id/layoutButtons">
+
+    <TextView
+        android:id="@+id/tGame"
+        android:text="@string/newGame2"
+        android:gravity="center_horizontal"
+        style="@style/RickiVsMartin"
+        android:textColor="@color/Orange"
+        android:textSize="@dimen/RikkiMartin"/>
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/layoutButtons"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_centerVertical="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true">
+
+    <Button
+        android:id="@+id/bLevel2"
+        android:text="@string/x2"
+        style="@style/levelButton"/>
+    <Button
+        android:id="@+id/bLevel4"
+        android:text="@string/x4"
+        style="@style/levelButton"/>
+    <Button
+        android:id="@+id/bLevel6"
+        android:text="@string/x6"
+        style="@style/levelButton"/>
+</LinearLayout>
+
+</RelativeLayout>

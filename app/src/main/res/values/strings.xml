@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name" translatable="false">Ricki vs Marti</string>
+    <string name="logo" translatable="false">Mr. Alex</string>
+    <string name="button" translatable="false">button</string>
+    <string name="x2" translatable="false">2 x 2</string>
+    <string name="x4" translatable="false">4 x 4</string>
+    <string name="x6" translatable="false">6 x 6</string>
+    <string name="buttonSound" translatable="false">Sound ON or OFF</string>
+    <string name="game">"Ricki vs Marti</string>
+    <string name="Ricki"><b>Ricki</b></string>
+    <string name="vs"><b>vs</b></string>
+    <string name="Martin"><b>Marti</b></string>
+    <string name="newGame">New game</string>
+    <string name="newGame2"><b>New game</b></string>
+    <string name="continueGame">Сontinue</string>
+    <string name="Help">Help</string>
+    <string name="exitGame">Exit</string>
+    <string name="MainMenu">Menu</string>
+    <string name="Score">Score: </string>
+    <string name="bestScore">Record: </string>
+    <string name="you_won">You have won! Congratulations!</string>
+    <string name="about_title">About the game:</string>
+    <string name="about_text"><b>Ricki vs Marti</b>\n\nLogic puzzle game.\nThe game is played on a game board. Clicking on any cell changes it. Also, all cells in the same row and column as the pressing cell change theirs value to the opposite. So the dog will appear in place of the kitty and the cat will appear in place of the dog.\nThe aim of the game is to fill the entire field with the same animals, it is desirable to making as little as possible moves.\n\nby: <b>Mr. Alex</b></string>
+    <string name="notSave">Saving missing! Press a new game.</string>
+    <string name="action_settings">Settings</string>
+    <string name="nameCat">My name is\n     Marti!\n</string>
+    <string name="nameDog">My name is\n     Ricki!\n</string>
+</resources>

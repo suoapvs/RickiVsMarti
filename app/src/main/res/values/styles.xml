@@ -1,0 +1,95 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="bSettingStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="RickiVsMartin">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:shadowColor">@color/Black</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">5</item>
+    </style>
+
+    <style name="bMenuStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textSize">@dimen/textButton</item>
+        <item name="android:textColor">@color/Blue</item>
+        <item name="android:shadowColor">@color/Black</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:layout_margin">@dimen/Margin</item>
+        <item name="android:padding">@dimen/Padding</item>
+    </style>
+
+    <style name="textGameStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:shadowColor">@color/Black</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="gridBGameStyle">
+        <item name="android:layout_width">@dimen/buttonSize</item>
+        <item name="android:layout_height">@dimen/buttonSize</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="gridBGameStyle2">
+        <item name="android:layout_width">@dimen/buttonSize2</item>
+        <item name="android:layout_height">@dimen/buttonSize2</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="gridBGameStyle6">
+        <item name="android:layout_width">@dimen/buttonSize6</item>
+        <item name="android:layout_height">@dimen/buttonSize6</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="levelButton">
+        <item name="android:layout_width">@dimen/buttonWidth</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textSize">@dimen/levelBSize</item>
+        <item name="android:textColor">@color/Blue</item>
+        <item name="android:shadowColor">@color/Black</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:layout_margin">@dimen/Margin</item>
+        <item name="android:padding">@dimen/Padding</item>
+    </style>
+
+    <style name="butCatDog">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_width">@dimen/bCatDog</item>
+        <item name="android:layout_height">@dimen/bCatDog</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="tCatDog">
+        <item name="android:textSize">@dimen/tCatDog</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:shadowColor">@color/Black</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+</resources>

@@ -1,0 +1,25 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="button_margin">5dp</dimen>
+    <dimen name="textScore">26sp</dimen>
+    <dimen name="textBestScore">24sp</dimen>
+    <dimen name="textSizeAbout">16sp</dimen>
+    <dimen name="textSizeHelp">18sp</dimen>
+    <dimen name="textButton">30sp</dimen>
+    <dimen name="RikkiMartin">38sp</dimen>
+    <dimen name="vs">30sp</dimen>
+    <dimen name="logoSizeW">300dp</dimen>
+    <dimen name="logoSizeH">150dp</dimen>
+    <dimen name="Padding">5dp</dimen>
+    <dimen name="Margin">5dp</dimen>
+    <dimen name="marginBotton">5dp</dimen>
+    <dimen name="LayoutWidth">200dp</dimen>
+    <dimen name="buttonWidth">195dp</dimen>
+    <dimen name="levelBSize">38sp</dimen>
+    <dimen name="buttonSize">70dp</dimen>
+    <dimen name="buttonSize2">128dp</dimen>
+    <dimen name="buttonSize6">50dp</dimen>
+    <dimen name="bCatDog">104dp</dimen>
+    <dimen name="tCatDog">18sp</dimen>
+</resources>

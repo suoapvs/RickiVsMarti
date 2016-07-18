@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grey">#648BA7AC</color>
+    <color name="darkGrey">#9FACC6</color>
+    <color name="Orange">#FFB300</color>
+    <color name="OrangeGrey">#AEAC91</color>
+    <color name="Brown">#514545</color>
+    <color name="Black">#ff000000</color>
+    <color name="White">#fff</color>
+    <color name="alphaWhite">#55FFFFFF</color>
+    <color name="darkBlue">#3D6C83</color>
+    <color name="Blue">#019FD9</color>
+    <color name="alphaBlue">#1e3861ff</color>
+</resources>

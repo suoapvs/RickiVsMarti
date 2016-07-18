@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <ImageButton
+            android:id="@+id/bSoundOffOn"
+            android:background="@android:color/transparent"
+            style="@style/bSettingStyle"
+            android:contentDescription="@string/buttonSound"/>
+    </LinearLayout>
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_gravity="bottom|center_horizontal"
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/banner"
+        android:contentDescription="@string/game"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/tDog"
+        android:textColor="@color/darkGrey"
+        style="@style/tCatDog"
+        android:layout_above="@+id/bDog"
+        android:layout_alignRight="@+id/bDog"
+        android:layout_alignEnd="@+id/bDog" />
+    <TextView
+        android:id="@+id/tCat"
+        android:textColor="@color/Orange"
+        style="@style/tCatDog"
+        android:layout_above="@+id/bCat"
+        android:layout_alignLeft="@+id/bCat"
+        android:layout_alignStart="@+id/bCat" />
+    <Button
+        android:id="@+id/bDog"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        style="@style/butCatDog" />
+    <Button
+        android:id="@+id/bCat"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        style="@style/butCatDog"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/marginBotton"
+        android:layout_above="@+id/layoutButtons">
+
+        <TextView
+            android:id="@+id/tRicki"
+            android:textColor="@color/darkGrey"
+            android:text="@string/Ricki"
+            android:textSize="@dimen/RikkiMartin"
+            style="@style/RickiVsMartin" />
+        <TextView
+            android:id="@+id/tVS"
+            android:textColor="@color/Brown"
+            android:text="@string/vs"
+            android:textSize="@dimen/vs"
+            style="@style/RickiVsMartin"/>
+        <TextView
+            android:id="@+id/tMartin"
+            android:textColor="@color/Orange"
+            android:text="@string/Martin"
+            android:textSize="@dimen/RikkiMartin"
+            style="@style/RickiVsMartin"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutButtons"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:id="@+id/bNewGame"
+            android:text="@string/newGame"
+            style="@style/bMenuStyle"/>
+        <Button
+            android:id="@+id/bСontinue"
+            android:text="@string/continueGame"
+            style="@style/bMenuStyle"/>
+        <Button
+            android:id="@+id/bHelpGame"
+            android:text="@string/Help"
+            style="@style/bMenuStyle" />
+        <Button
+            android:id="@+id/bExitGame"
+            android:text="@string/exitGame"
+            style="@style/bMenuStyle" />
+    </LinearLayout>
+
+</RelativeLayout>

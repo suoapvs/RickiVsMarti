@@ -1,0 +1,21 @@
+<resources>
+    <string name="game">Ricki vs Marti</string>
+    <string name="Ricki"><b>Рикки</b></string>
+    <string name="vs"><b>vs</b></string>
+    <string name="Martin"><b>Марти</b></string>
+    <string name="newGame">Новая игра</string>
+    <string name="newGame2"><b>Новая игра</b></string>
+    <string name="continueGame">Продолжить</string>
+    <string name="Help">Помощь</string>
+    <string name="exitGame">Выход</string>
+    <string name="MainMenu">Меню</string>
+    <string name="Score">Счет: </string>
+    <string name="bestScore">Рекорд: </string>
+    <string name="you_won">Вы выиграли! Поздравляем!</string>
+    <string name="about_title">О игре:</string>
+    <string name="about_text"><b>Рикки vs Марти</b>\n\nЛогическая головоломка.\nИгра происходит на игровом поле. При нажатии на какую-либо клетку, она изменяется. Также все клетки, находящиеся в том же ряде и столбике, что и нажатая клетка, меняют своё значение на противоположное. То есть на месте собачки появится котик, а на месте котика – собачка.\nЦель игры состоит в том, чтобы заполнить все поле одинаковыми животными, желательно сделав как можно меньше перемещений.\n\nby: <b>Mr. Alex</b></string>
+    <string name="action_settings">Настройки</string>
+    <string name="notSave">Сохранение отсутствует! Начните новую игру.</string>
+    <string name="nameCat">Я Марти!\n</string>
+    <string name="nameDog">Я Рикки!\n</string>
+</resources>
